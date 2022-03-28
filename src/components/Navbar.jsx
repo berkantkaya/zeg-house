@@ -23,15 +23,15 @@ const Navbar = () => {
 
   return (
     <nav className="relative lg:flex lg:justify-around lg:items-center border-b border-gray-400">
-      <div className="flex justify-between items-center px-4 py-4">
+      <div className="flex justify-between items-center px-4 py-2">
         <div
           style={{ whiteSpace: "nowrap" }}
           className="text-xl -ml-2 lg:ml-4 bold mt-1"
         >
           <img
             onClick={() => navigate("/")}
-            className="mb-2 cursor-pointer"
-            src="/assets/zeg-images/Logo1.png"
+            className="mb-2 max-w-[65px] cursor-pointer"
+            src="/assets/zeg-images/favzegtwo.png"
             alt=""
           />
         </div>
@@ -70,14 +70,21 @@ const Navbar = () => {
         ))}
       </div>
       <div className="sm:flex flex-col items-center space-y-1 hidden">
-       <p className="text-white">+90 500 000 00 00</p>
-       <div className='flex space-x-2 cursor-pointer ml-1'>
-        <img src="/assets/zeg-images/facebook.png" alt="" />
-        <img src="/assets/zeg-images/instagram.png" alt="" />
-        <img src="/assets/zeg-images/twitter.png" alt="" />
+        <p className="text-white">+90 530 678 21 21</p>
+        <div className="flex space-x-2 cursor-pointer ml-1">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Zeg-House-100265415970479"
+          >
+            <img src="/assets/zeg-images/facebook.png" alt="" />
+          </a>
+          <a target="_blank" href="https://www.instagram.com/zeghouse/">
+            <img src="/assets/zeg-images/instagram.png" alt="" />
+          </a>
+          {/* <img src="/assets/zeg-images/twitter.png" alt="" />
         <img src="/assets/zeg-images/youtube.png" alt="" />
-        <img src="/assets/zeg-images/linkedin.png" alt="" />
-      </div>
+        <img src="/assets/zeg-images/linkedin.png" alt="" /> */}
+        </div>
       </div>
     </nav>
   );

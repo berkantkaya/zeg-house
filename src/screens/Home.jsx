@@ -23,7 +23,7 @@ const Home = () => {
             Özgürce Yaşayın!
             </div>
             <div className="tracking-wider mt-3 lg:mt-6 lg:text-lg font-semibold lg:ml-2">Hayalinizdeki küçük eve kavuşma vakti</div>
-            <button className="bg-[#A36D4D] text-white py-2 px-4 rounded-lg font-semibold text-base mt-3 lg:mt-8">Daha Fazla</button>
+            <button  onClick={() => navigate(`/products`)} className="bg-[#A36D4D] text-white py-2 px-4 rounded-lg font-semibold text-base mt-3 lg:mt-8">Daha Fazla</button>
           </div>
         </div>
       </div>

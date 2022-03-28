@@ -74,12 +74,12 @@ const Information = () => {
         </div>
       </div>
       <div className="my-12 xl:-my-1 hidden xl:flex flex-wrap items-center justify-center  ">
-        <div className=" bg-[#F5F5F5] xl:max-w-[700px] space-y-4 md:space-y-7 text-center p-5 sm:py-12">
+        <div className=" bg-[#F5F5F5] xl:max-w-[700px] space-y-4 md:space-y-7 p-5 sm:py-12">
           <div className="flex items-end justify-center xl:justify-end">
             <p className="md:text-4xl font-semibold text-xl">MODELLERİMİZ</p>
             <hr className=" sm:block hidden w-52 border border-[#A36D4D] rounded-lg m-1" />
           </div>
-          <p className="tracking-wider">
+          <p className="tracking-wider text-center">
             Şehir yaşamından uzaklaşıp özgürce yaşamanız için aşağıdaki
             modellerimizden birini seçebilirsiniz.
           </p>
@@ -112,7 +112,7 @@ const Information = () => {
           src="/assets/zeg-images/groupimg.png"
           alt=""
         />
-        <div className="bg-[#F5F5F5] xl:max-w-[700px] space-y-4 md:space-y-7 text-center p-5 sm:py-12">
+        <div className="bg-[#F5F5F5] xl:max-w-[700px] space-y-4 md:space-y-7 p-5 sm:py-12">
           <div className="flex items-end justify-center xl:justify-end">
             <p className="md:text-4xl font-semibold text-xl">MODELLERİMİZ</p>
             <hr className=" sm:block hidden w-52 border border-[#A36D4D] rounded-lg m-1" />
