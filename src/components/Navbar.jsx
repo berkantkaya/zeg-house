@@ -31,7 +31,7 @@ const Navbar = () => {
           <img
             onClick={() => navigate("/")}
             className="mb-2 max-w-[65px] cursor-pointer"
-            src="/assets/zeg-images/favzegtwo.png"
+            src="/assets/zeg-images/whitezeglogo.png"
             alt=""
           />
         </div>
